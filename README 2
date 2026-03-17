@@ -1,37 +1,44 @@
-# House Price Prediction using Machine Learning 🏠📈
+# 🏠 House Price Prediction
 
-## 📌 Overview
-This project predicts house prices using machine learning algorithms based on various real estate features.
+A machine learning model to predict house rental prices based on various features.
 
-## 🎯 Problem Statement
-House prices depend on multiple factors such as location, size, and number of rooms. Manual estimation is inaccurate and inconsistent.
+---
 
-## 🛠️ Tech Stack
+## 🚀 Features
+
+- 📊 Data analysis
+- 🧠 Model training (XGBoost, LGBM)
+- 📈 Prediction system
+
+---
+
+## 🧠 Tech Stack
+
 - Python
-- Pandas, NumPy
-- Scikit-learn
-- Jupyter Notebook
+- Pandas
+- XGBoost, LightGBM
+- Streamlit (optional deployment)
 
-## ✨ Features
-- Data cleaning & preprocessing
-- Exploratory Data Analysis (EDA)
-- Feature engineering
-- ML model training and evaluation
+---
 
 ## ⚙️ Workflow
+
 1. Data preprocessing
-2. Feature selection
+2. Feature engineering
 3. Model training
-4. Performance evaluation
+4. Prediction
 
-## 📈 Results
-- Accurate price predictions
-- Improved performance through feature optimization
+---
 
-## 📌 Future Improvements
-- Hyperparameter tuning
-- Add advanced regression models
-- Deploy using a web interface
+## 📊 Results
 
-## 👤 Author
-Nitesh Kumar
+- High prediction accuracy
+- Best models: XGBRegressor, LGBMRegressor
+
+---
+
+## ▶️ Run
+
+```bash
+pip install pandas xgboost lightgbm
+python main.py
